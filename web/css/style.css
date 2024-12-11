@@ -1,0 +1,130 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* 导航栏 */
+nav {
+    background-color: #2a9d8f;
+    padding: 10px 0;
+    color: white;
+}
+
+nav .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 首页主体内容 */
+.main-content {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+    color: #2a9d8f;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* 上传食材图片 */
+.upload-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.upload-section form input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.upload-section form button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-section form button:hover {
+    background-color: #f4a261;
+}
+
+/* 食谱推荐 */
+.recipe-recommendations {
+    margin-top: 30px;
+}
+
+.recipe-recommendations h2 {
+    text-align: center;
+    color: #2a9d8f;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-item {
+    width: 30%;
+    text-align: center;
+}
+
+.recipe-item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-item h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.recipe-item p {
+    color: #888;
+}
+
+/* 页脚 */
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
